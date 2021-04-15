@@ -1,0 +1,10 @@
+Lab_SIRD-Model
+
+Code:
+    > sird.s - write your sird function and your interrupt handler in this file
+    > common.s - RISC-V code that initializes four global variables to use in your LCG
+        implementation, allocates space for the interrupt trap data, stores the 
+        address of the allocated memory into the uscratch control status register, 
+        calls the student's sird function then finally exits.
+    > Demo - contains a sample program displayDemo.s that prints a string onto 
+        the Keyboard and Display MMIO Simulator
